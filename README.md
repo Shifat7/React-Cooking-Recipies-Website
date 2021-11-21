@@ -1,6 +1,7 @@
 # Getting Started with React Website App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a website that gives all the recipies you search from in the search bar. The API used here to fetch all the different recipies and their information is from the [Edumam API Docs](https://developer.edamam.com/edamam-docs-recipe-api).
+
 
 First setup Node.js in your working environment. But since i used version 14 LTS Node, there might be some conflict issues. After cloning this git, type in **npm start** in the terminal at the working directory. Then since I used Yarn in this project install that too, after that follow the scripts below to run the app:
 
