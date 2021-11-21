@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-First setup Node.js in your working environment. Then after cloning this git, type in **npm start** in the terminal in the working directory. Then since I used Yarn in this project install that too, after that follow the scripts below to run the app:
+First setup Node.js in your working environment. Then after cloning this git, type in **npm start** in the terminal at the working directory. Then since I used Yarn in this project install that too, after that follow the scripts below to run the app:
 
 ## Scripts
 
