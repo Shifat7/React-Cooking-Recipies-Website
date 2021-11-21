@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Getting Started with React Website App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+First setup Node.js in your working environment. Then after cloning this git, type in **npm start** in the terminal in the working directory. Then since I used Yarn in this project install that too, after that follow the scripts below to run the app:
+
+## Scripts
 
 In the project directory, you can run:
 
@@ -53,9 +55,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/c
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
 ### Advanced Configuration
 
