@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+
+.App {
+  min-height: 100vh;
+  text-align: center;
+  color: rgb(240, 189, 80);
+  background-color: brown;
+}
+
+
+.header {
+  background-color: #fbff00;
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 0, 0);
+}
+
+
+.Search_Form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Search_Bar {
+  width: 50%;
+  border: rgb(255, 238, 0);
+  border-style: dashed;
+  padding: 10px;
+}
+
+
+.Search_Button {
+  border: none;
+  padding: 12px 20px;
+  background: crimson;
+  color: rgb(251, 255, 0);
+}
+
