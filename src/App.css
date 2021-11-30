@@ -4,32 +4,26 @@
   border: 0;
   outline: 0;
   vertical-align: baseline;
+  
 }
 
 
+/*Main body*/
 .App {
-  min-height: 100vh;
+
+  background-clip: content-box;
   text-align: center;
   color: rgb(240, 189, 80);
   background-color: brown;
-}
 
-
-.header {
-  background-color: #fbff00;
-  display: flexbox;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: rgb(255, 0, 0);
 }
 
 
 .Search_Form {
-  min-height: 10vh;
-  display: flex;
   justify-content: center;
   align-items: center;
+  position: initial;
+  border-bottom-width: 10px;
 }
 
 
@@ -40,11 +34,58 @@
   padding: 10px;
 }
 
-
 .Search_Button {
   border: none;
   padding: 12px 20px;
   background: crimson;
   color: rgb(251, 255, 0);
+}
+
+.lists{
+
+  list-style: none;
+}
+
+
+
+
+/*body of all the recipies*/
+.recipie-main {
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid orange;
+  display: grid;
+  grid-template-columns: 1fr 50%;
+  align-content: center;
+  overflow: auto;
+  grid-template-rows:max-content;
+}
+
+/*body of each recipe block*/
+.recipies{
+border: 2px solid orange;
+padding: 1px;
+margin: 10px;
+
+
+border-radius: 20px;
+display: grid;
+justify-content: stretch;
+grid-template-columns: 1fr;
+grid-template-rows:max-content;
+place-items: center;
+}
+
+
+.img{
+  border-radius: 20px;
+  align-items: right;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.recipie-error{
+  text-align: center;
 }
 
