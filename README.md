@@ -1,5 +1,7 @@
 # Getting Started with React Website App
 
+![image](https://user-images.githubusercontent.com/87413554/144009814-c365ada4-e1c1-4e14-b6ab-66cbb0fd2c56.png)
+
 This project is a website that gives all the recipies you search from in the search bar. The API used here to fetch all the different recipies and their information is from the [Edumam API Docs](https://developer.edamam.com/edamam-docs-recipe-api).
 
 
